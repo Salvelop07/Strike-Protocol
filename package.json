@@ -15,7 +15,7 @@
     "test:prepare": "NO_RUN=true ./script/test",
     "checksize": "npx run ./script/saddle/comptrollerSize.js"
   },
-  "repository": "git@github.com:strike-finance/strike-protocol.git",
+  "repository": "git@github.com:Salvelop07/strike-protocol.git",
   "author": "Strike Protocol",
   "license": "UNLICENSED",
   "devDependencies": {

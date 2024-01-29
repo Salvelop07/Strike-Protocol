@@ -1,7 +1,7 @@
 Strike Protocol
 =================
 
-The Strike Protocol is an Ethereum smart contract for supplying or borrowing assets. Through the sToken contracts, accounts on the blockchain *supply* capital (Ether or ERC-20 tokens) to receive sTokens or *borrow* assets from the protocol (holding other assets as collateral). The Strike sToken contracts track these balances and algorithmically set interest rates for borrowers.
+The Strike Protocol is an Ethereum smart contract designed for lending and borrowing assets. 💰✨ Users can supply capital (like Ether or ERC-20 tokens) to receive sTokens or borrow assets while using other assets as collateral. The Strike sToken contracts keep track of these balances and automatically set interest rates for borrowers. 📈🔑
 
 Contracts
 =========
@@ -62,7 +62,7 @@ Installation
 ------------
 To run strike, pull the repository from GitHub and install its dependencies. You will need [yarn](https://yarnpkg.com/lang/en/docs/install/) or [npm](https://docs.npmjs.com/cli/install) installed.
 
-    git clone https://github.com/strike-finance/strike-protocol
+    git clone https://github.com/Salvelop07/strike-protocol
     cd strike-protocol
     yarn install --lock-file # or `npm install`
 
@@ -78,22 +78,22 @@ The Strike Protocol has a simple scenario evaluation tool to test and evaluate s
     Command: Read SToken sBAT Address
     AddressV<val=0xAD53863b864AE703D31b819d29c14cDA93D7c6a6>
 
-You can read more about the scenario runner in the [Scenario Docs](https://github.com/strike-finance/strike-protocol/tree/master/scenario/SCENARIO.md) on steps for using the repl.
+You can read more about the scenario runner in the [Scenario Docs](https://github.com/Salvelop07/strike-protocol/tree/master/scenario/SCENARIO.md) on steps for using the repl.
 
 Testing
 -------
-Jest contract tests are defined under the [tests directory](https://github.com/strike-finance/strike-protocol/tree/master/tests). To run the tests run:
+Jest contract tests are defined under the [tests directory](https://github.com/Salvelop07/strike-protocol/tree/master/tests). To run the tests run:
 
     yarn test
 
 Integration Specs
 -----------------
 
-There are additional tests under the [spec/scenario](https://github.com/strike-finance/strike-protocol/tree/master/spec/scenario) folder. These are high-level integration tests based on the scenario runner depicted above. The aim of these tests is to be highly literate and have high coverage in the interaction of contracts.
+There are additional tests under the [spec/scenario](https://github.com/Salvelop07/strike-protocol/tree/master/spec/scenario) folder. These are high-level integration tests based on the scenario runner depicted above. The aim of these tests is to be highly literate and have high coverage in the interaction of contracts.
 
 Testing
 -------
-Contract tests are defined under the [tests directory](https://github.com/strike-finance/money-market/tree/master/tests). To run the tests run:
+Contract tests are defined under the [tests directory](https://github.com/Salvelop07/money-market/tree/master/tests). To run the tests run:
 
     yarn test
 >>>>>>> Strike Token and Governance (#519)

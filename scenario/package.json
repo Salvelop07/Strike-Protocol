@@ -6,8 +6,8 @@
   "scripts": {
     "build": "./script/webpack"
   },
-  "repository": "git@github.com:strike-finance/money-market.git",
-  "author": "Strike Finance",
+  "repository": "git@github.com:Salvelop07/money-market.git",
+  "author": "Salvador",
   "license": "UNLICENSED",
   "devDependencies": {
     "request": "^2.88.0",
